@@ -1,6 +1,8 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <greetings.h>
 
 int main(int argc, char* argv[]){
-    printf("First program.\n");
+    printf("First program!\n");
+    greetings();
     return 0;
 }
